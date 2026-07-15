@@ -36,15 +36,15 @@ hr { border-color: #1E2D40; }
 .page-header p { color: #8899AA; margin: 0; font-size: 0.9rem; }
 </style>
 """, unsafe_allow_html=True)
-
-# ── Sidebar ────────────────────────────────────────────────────────────────────
+# ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.markdown("## 🌫️ AQI Forecaster")
 st.sidebar.markdown("---")
-st.sidebar.page_link("Home.py", label="🏠 Home")
-st.sidebar.page_link("pages/City_Analysis.py", label="🏙️ City Analysis")
-st.sidebar.page_link("pages/Forecast.py", label="📈 Forecast")
-st.sidebar.page_link("pages/Model_Insigths.py", label="🤖 Model Insights")
-st.sidebar.page_link("pages/Station_Analysis.py", label="📍 Station Analysis")
+st.sidebar.markdown("### Navigation")
+st.sidebar.markdown("[🏠 Home](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app)")
+st.sidebar.markdown("[🏙️ City Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/City_Analysis)")
+st.sidebar.markdown("[📈 Forecast](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Forecast)")
+st.sidebar.markdown("[📍 Station Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Station_Analysis)")
+st.sidebar.markdown("[🤖 Model Insights](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Model_Insigths)")
 
 # ── Load Data ──────────────────────────────────────────────────────────────────
 @st.cache_data
