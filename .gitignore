@@ -1,0 +1,5 @@
+data/raw/city_hour.csv
+data/raw/station_hour.csv
+__pycache__/
+*.pyc
+.env
