@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import os
 
-st.set_page_config(page_title="City Analysis", page_icon="🏙️", layout="wide")
+st.set_page_config(page_title="City Analysis", page_icon="🏙️", layout="wide", initial_sidebar_state="expanded")
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
