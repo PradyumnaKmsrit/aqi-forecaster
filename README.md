@@ -3,7 +3,7 @@
 A comprehensive Air Quality Index (AQI) forecasting and analysis dashboard for 26 major Indian cities using historical pollution data from 2015–2020.
 
 ## 🔗 Live Demo
-https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app
+https://aqi-forecaster-r3tnezhbhgeyonyai7kf4j.streamlit.app/
 
 ## 📊 Project Overview
 
