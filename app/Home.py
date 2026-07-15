@@ -5,7 +5,8 @@ import os
 st.set_page_config(
     page_title="AQI Forecaster India",
     page_icon="🌫️",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,12 +20,11 @@ def load_data():
 
 df = load_data()
 
-st.sidebar.markdown("## Navigation")
-st.sidebar.markdown("- [🏠 Home](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app)")
-st.sidebar.markdown("- [🏙️ City Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/City_Analysis)")
-st.sidebar.markdown("- [📈 Forecast](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Forecast)")
-st.sidebar.markdown("- [📍 Station Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Station_Analysis)")
-st.sidebar.markdown("- [🤖 Model Insights](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Model_Insigths)")
+st.sidebar.markdown("- [🏠 Home](https://aqi-forecaster-hhgfnpv9gufxqtpzmvf8ja.streamlit.app)")
+st.sidebar.markdown("- [🏙️ City Analysis](https://aqi-forecaster-hhgfnpv9gufxqtpzmvf8ja.streamlit.app/City_Analysis)")
+st.sidebar.markdown("- [📈 Forecast](https://aqi-forecaster-hhgfnpv9gufxqtpzmvf8ja.streamlit.app/Forecast)")
+st.sidebar.markdown("- [📍 Station Analysis](https://aqi-forecaster-hhgfnpv9gufxqtpzmvf8ja.streamlit.app/Station_Analysis)")
+st.sidebar.markdown("- [🤖 Model Insights](https://aqi-forecaster-hhgfnpv9gufxqtpzmvf8ja.streamlit.app/Model_Insigths)")
 
 st.title("🌫️ AQI Forecaster — India")
 st.markdown("Air quality monitoring and forecasting across 26 major Indian cities · 2015–2020")
