@@ -39,13 +39,11 @@ hr { border-color: #1E2D40; }
 # ── Sidebar Navigation ─────────────────────────────────────────────────────────
 st.sidebar.markdown("## 🌫️ AQI Forecaster")
 st.sidebar.markdown("---")
-st.sidebar.markdown("### Navigation")
 st.sidebar.markdown("[🏠 Home](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app)")
 st.sidebar.markdown("[🏙️ City Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/City_Analysis)")
 st.sidebar.markdown("[📈 Forecast](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Forecast)")
 st.sidebar.markdown("[📍 Station Analysis](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Station_Analysis)")
 st.sidebar.markdown("[🤖 Model Insights](https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app/Model_Insigths)")
-
 # ── Load Data ──────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
