@@ -19,6 +19,14 @@ def load_data():
 
 df = load_data()
 
+st.sidebar.page_link("app/Home.py", label="🏠 Home")
+st.sidebar.page_link("app/pages/City_Analysis.py", label="🏙️ City Analysis")
+st.sidebar.page_link("app/pages/Forecast.py", label="📈 Forecast")
+st.sidebar.page_link("app/pages/Station_Analysis.py", label="📍 Station Analysis")
+st.sidebar.page_link("app/pages/Model_Insigths.py", label="🤖 Model Insights")
+
+st.title("🌫️ AQI Forecaster — India")
+
 st.title("🌫️ AQI Forecaster — India")
 st.markdown("Air quality monitoring and forecasting across 26 major Indian cities · 2015–2020")
 st.markdown("---")
