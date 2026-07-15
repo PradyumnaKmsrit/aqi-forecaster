@@ -3,8 +3,6 @@
 A comprehensive Air Quality Index (AQI) forecasting and analysis dashboard for 26 major Indian cities using historical pollution data from 2015–2020.
 
 ## 🔗 Live Demo
-Add your Streamlit Cloud URL after deployment
-## 🔗 Live Demo
 https://aqi-forecaster-y9czaqshoqdwbgapp9dxyre.streamlit.app
 
 ## 📊 Project Overview
