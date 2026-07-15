@@ -40,6 +40,11 @@ hr { border-color: #1E2D40; }
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 st.sidebar.markdown("## 🌫️ AQI Forecaster")
 st.sidebar.markdown("---")
+st.sidebar.page_link("Home.py", label="🏠 Home")
+st.sidebar.page_link("pages/City_Analysis.py", label="🏙️ City Analysis")
+st.sidebar.page_link("pages/Forecast.py", label="📈 Forecast")
+st.sidebar.page_link("pages/Model_Insigths.py", label="🤖 Model Insights")
+st.sidebar.page_link("pages/Station_Analysis.py", label="📍 Station Analysis")
 
 # ── Load Data ──────────────────────────────────────────────────────────────────
 @st.cache_data
